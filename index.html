@@ -4,17 +4,63 @@
     <meta charset="UTF-8">
     <meta name="author" content="Доможилкін Олег">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Подорож в Японію</title>
+    <title>Японія подорожі</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ласкаво просимо в Японію!</h1>
-    <nav>
-        <ul>
-            <li><a href="culture.html">Культура</a></li>
-            <li><a href="food.html">Їжа</a></li>
-            <li><a href="places.html">Цікаві місця</a></li>
-        </ul>
-    </nav>
-    <p>Дізнайтеся більше про культуру, їжу та найцікавіші місця Японії!</p>
+    <header>
+        <h1>Японія подорожі</h1>
+        <p>Про маршрути, ціни і цікавинки</p>
+        <nav>
+            <a href="culture.html">Культура</a>
+            <a href="food.html">Їжа</a>
+            <a href="places.html">Місця</a>
+            <a href="index.html#tokyo-weather">Дізнатися погоду в Токіо</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h2>Склади план подорожі разом з нами</h2>
+                <p>Простий спосіб прикинути вартість поїздки в Японію</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="article">
+                <a href="places.html#paid-places-table"><img src="images/photo_2024-09-19_16-31-28.jpg"></a>
+               
+                <h3>План подорожі в Японію</h3>
+            </div>
+           
+            <div class="article">
+                <a href="images/fuji.jpg" target="_blank">
+                    <img src="images/fuji.jpg" alt="Відвіді на питання">
+                </a>
+                <h3>Відповіді на питання про Японію</h3>
+            </div>
+        </div>
+
+        <!-- Віджет погоди -->
+        <div class="weather-widget">
+            <h3 id="tokyo-weather">Погода в Токіо</h3>
+            <iframe src="https://www.accuweather.com/en/jp/national/current-weather-maps" width="600" height="450" frameborder="0"></iframe>
+        </div>
+
+        <!-- Карта маршрутів -->
+        <div class="map-widget">
+            <h3 id="tokyo-map">Карта Японії</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4733767.585935865!2d137.83510950994398!3d34.98599018979744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1742661405990!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>Контакти для запитань: 0673217312</p>
+        <p>
+            <a href="https://t.me/yourtelegram">Telegram канал</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
 </body>
 </html>
+
